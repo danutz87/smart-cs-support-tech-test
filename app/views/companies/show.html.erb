@@ -18,7 +18,7 @@
         <td><%= employee.id %></td>
         <td><%= employee.forename %></td>
         <td><%= employee.surname %></td>
-        <td><%= link_to "Edit", edit_company_employee_path(employee), class: "btn btn-primary btn-sm" %></td>
+        <td><%= link_to "Edit", edit_company_employee_path(@company, employee), class: "btn btn-primary btn-sm" %></td>
       </tr>
     <% end %>
   </tbody>
